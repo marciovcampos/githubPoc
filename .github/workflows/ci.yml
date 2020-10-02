@@ -36,13 +36,13 @@ jobs:
           cd ios && pod install
       - name: Build app
         run: |       
-          xcodebuild -workspace isusapp.xcworkspace -scheme isusapp archive -archivePath isusapp.xcarchive -allowProvisioningUpdates
-          xcodebuild -exportArchive -archivePath ./isusapp.xcarchive -exportPath . -exportOptionsPlist isusapp/Info.plist
-          mv isusapp.ipa ../isusapp.ipa
+          xcodebuild -workspace githubPoc.xcworkspace -scheme githubPoc archive -archivePath githubPoc.xcarchive -allowProvisioningUpdates
+          xcodebuild -exportArchive -archivePath ./githubPoc.xcarchive -exportPath . -exportOptionsPlist githubPoc/Info.plist
+          mv githubPoc.ipa ../githubPoc.ipa
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
-          name: isusapp.ipa
+          name: githubPoc.ipa
           path: ios/build/
 
 
