@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>githubPoc.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>6E4362F16C784B4713403B2CA11CF357DDF96482</string>
+				<key>dateExpires</key>
+				<string>24/08/21</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>UFPAYAXUYX.org.reactjs.native.example.githubPoc</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>UFPAYAXUYX</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>UFPAYAXUYX.org.reactjs.native.example.githubPoc</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>githubPoc.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>4d9d9bc5-ac76-44b4-9aca-2152860f7549</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: org.reactjs.native.example.githubPoc</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>UFPAYAXUYX</string>
+				<key>name</key>
+				<string>Márcio Vinícius  Campos da Silveira</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
